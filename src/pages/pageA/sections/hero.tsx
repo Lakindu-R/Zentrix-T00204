@@ -3,7 +3,7 @@ function hero() {
   return (
     <section className="">
       <div className="w-full max-w-[1920px]">
-        <div className="relative flex">
+        <div className="relative ">
           <h1 className="w-[112px] text-[128px] text-white">
             Power the Future with Zentrix
           </h1>
