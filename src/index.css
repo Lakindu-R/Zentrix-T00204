@@ -3,6 +3,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* import font family */
+.font-md {
+  font-family: 'DM Sans', sans-serif;
+}
+
 @theme inline {
   /* Existing radius variables */
   --radius-sm: calc(var(--radius) - 4px);
@@ -44,6 +49,7 @@
   --color-sidebar-ring: var(--sidebar-ring);
 
   /* Screen sizes - Figma-optimized responsive breakpoints */
+  --breakpoint-2xs: 430px;
   --screen-xs: 475px; /* Extra small devices */
   --screen-sm: 640px; /* Small devices (tablets) */
   --screen-md: 768px; /* Medium devices (small tablets/laptops) */
