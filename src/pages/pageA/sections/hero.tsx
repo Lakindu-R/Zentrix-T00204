@@ -1,10 +1,23 @@
 import Img1 from '/1.webp';
+import Galaxy from '../../../../src/components/customUi/galaxy';
+
 import vdo from '/animate.mp4';
 
 function hero() {
   return (
     <section className="font-md mx-auto w-full pt-[80px] text-white">
-      <div className="mx-auto flex w-full max-w-[1920px] flex-col justify-center lg:flex-row">{/* 2xl:min-h-screen */}
+      <div style={{ width: '100%', height: '800px', position: 'absolute' }}>
+        {/* <Galaxy
+          mouseRepulsion={true}
+          mouseInteraction={true}
+          density={0.3}
+          glowIntensity={0.1}
+          saturation={0}
+          hueShift={110}
+        /> */}
+      </div>
+      <div className="mx-auto flex w-full max-w-[1920px] flex-col justify-center lg:flex-row">
+        {/* 2xl:min-h-screen */}
         {/* left side */}
         <div className="max-w-[1112px] justify-center lg:ml-[120px] lg:pt-[188px]">
           <h1 className="2xs:text-[52px] mx-auto max-w-[1112px] text-center font-[700] text-white lg:text-start xl:text-[128px]">
