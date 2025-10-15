@@ -1,31 +1,71 @@
 import Img2 from '/2.webp';
-import Img22 from '/animate2.gif';
+import Img9 from '/9.webp';
+import Img22 from '/animate.gif';
+
 function hiw() {
   return (
-    <section className="mt-[102px] 2xl:mt-[145px]">
-      <div className="font-md mx-auto text-white">
+    <section className="py-12">
+      <div className="font-md text-white">
         {/* upper Row */}
-        <div className="2xs:w-[398px] 2xs:h-[590px] relative mx-auto flex h-auto max-h-[590px] w-auto max-w-[1680px] gap-[77px] rounded-[12px] border pt-[77px] 2xl:h-[590px] 2xl:w-[1680px]">
-          <img
-            src={Img22}
-            alt="Animated background"
-            className="2xs:h-[318px] 2xs:w-[390px] absolute top-[295px] order-2 h-auto w-auto md:top-0 lg:top-[295px] 2xl:bottom-[42px] 2xl:ml-[42px] 2xl:h-[625px] 2xl:w-[767px]"
-          />
-          <div className="2xs:w-[367px] order-1 mx-auto lg:ml-[886px] lg:h-[230px] lg:w-[740px] 2xl:top-[180px]">
-            <h1 className="mb-[24px] text-[24px]">Intelligent Growth System</h1>
-            <p className="text-[16px] lg:mt-[42px]">
-              Zentrix builds a strong AI-powered foundation that grows layer by
-              layer, just like a pyramid. Each level improves decision-making,
-              data security, and user experience through smart automation and
-              learning.
-            </p>
+        <div className="mx-auto px-3 md:px-6">
+          <div className="relative mx-auto flex max-w-[398px] flex-col-reverse overflow-visible rounded-xl border border-white px-3 md:max-w-[720px] md:flex-row md:items-center md:gap-6 md:px-6 lg:max-w-[1680px] lg:gap-8 lg:px-8">
+            {/* Image */}
+            <div className="absolute right-0 bottom-0 left-0 flex translate-y-[9%] justify-center md:relative md:flex-shrink-0 md:translate-y-[-30px]">
+              <img
+                src={Img22}
+                alt="AI Pyramid"
+                className="h-auto w-auto max-w-[320px] md:w-[340px] lg:h-auto lg:w-[767px]"
+              />
+            </div>
+            {/* Text Content */}
+            <div className="mx-auto mt-[77px] mb-[250px] md:mt-0 md:mb-0 md:flex-1 md:py-8">
+              <h1 className="mb-6 text-2xl font-bold md:text-3xl md:text-[32px] lg:text-4xl">
+                Intelligent Growth System
+              </h1>
+              <p className="mx-auto max-w-[367px] text-base leading-relaxed text-gray-300 md:mx-0 md:max-w-none md:text-sm lg:text-base">
+                Zentrix builds a strong AI-powered foundation that grows layer
+                by layer, just like a pyramid. Each level improves
+                decision-making, data security, and user experience through
+                smart automation and learning.
+              </p>
+            </div>
           </div>
         </div>
         {/* bottom two colunm row */}
-        {/* <div className="flex">
-          <div className=""></div>
-          <div className=""></div>
-        </div> */}
+        <div className="flex flex-col md:flex-row lg:gap-[20px]">
+          <div className="2xs:h-[590px] mx-4 mt-[22px] h-auto gap-[24px] rounded-[12px] border border-white md:h-[468px] md:w-[350px]">
+            <div className="px-4 pt-[33px]">
+              <h1 className="2xs:text-2xl font-bold md:text-[32px]">
+                Decentralized AI Network
+              </h1>
+              <p className="2xs:w-[367px] 2xs:mt-6 w-auto text-[16px] font-normal md:w-[314px]">
+                Our Pyramid AI network connects users and systems worldwide. It
+                allows safe and transparent sharing of AI power, creating a
+                globalw ecosystem that supports innovation, research, and
+                performance.
+              </p>
+              <img
+                src={Img9}
+                alt=""
+                className="2xs:mt-[85px] mt-auto h-auto w-auto md:mt-[42px] md:h-[158px] md:w-[314px] md:pb-[22px]"
+              />
+            </div>
+          </div>
+          <div className="2xs:h-[590px] mx-4 mt-[22px] flex h-auto gap-[24px] rounded-[12px] border border-white md:h-[468px] md:w-[350px]">
+            <div className="2xs:pt-[33px] 2xs:my-[181px] 2xs:h-[224px] h-auto max-w-[316px] px-4">
+              <h1 className="2xs:w-[316px] 2xs:text-2xl text-[20px] font-bold">
+                Future-Ready Utility Token
+              </h1>
+              <p className="2xs:w-[367px] 2xs:mt-6 2xs:text-[16px] font-normal md:w-[314px]">
+                Our Pyramid AI network connects users and systems worldwide. It
+                Zentrix gives users access to advanced AI tools, smart trading
+                options, and decentralized features. It’s designed for the
+                future — secure, scalable, and always ready to evolve with new
+                technology.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
