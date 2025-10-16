@@ -33,28 +33,30 @@ function hiw() {
         </div>
         {/* bottom two colunm row */}
         <div className="flex flex-col justify-center md:flex-row lg:gap-[24px]">
-          <div className="2xs:h-[590px] mx-4 mt-[22px] h-auto gap-[24px] rounded-[12px] border border-white px-[18px] pt-5 md:h-[468px] md:w-[350px]">
-            <h1 className="2xs:text-2xl font-bold md:text-[32px]">
-              Decentralized AI Network
-            </h1>
-            <p className="2xs:w-[367px] 2xs:mt-6 w-auto text-[16px] font-normal md:w-[314px]">
-              Our Pyramid AI network connects users and systems worldwide. It
-              allows safe and transparent sharing of AI power, creating a
-              globalw ecosystem that supports innovation, research, and
-              performance.
-            </p>
+          <div className="2xs:h-[590px] mx-4 mt-[22px] h-auto gap-[24px] rounded-[12px] border border-white px-[18px] pt-5 md:h-[468px] md:w-[350px] lg:w-[827px]">
+            <div className="lg:mx-auto">
+              <h1 className="2xs:text-2xl font-bold md:text-[32px]">
+                Decentralized AI Network
+              </h1>
+              <p className="2xs:w-[367px] 2xs:mt-6 w-auto text-[16px] font-normal md:w-[314px]">
+                Our Pyramid AI network connects users and systems worldwide. It
+                allows safe and transparent sharing of AI power, creating a
+                globalw ecosystem that supports innovation, research, and
+                performance.
+              </p>
+            </div>
             <img
               src={Img9}
               alt=""
               className="2xs:mt-[85px] mt-auto h-auto w-auto md:mt-[42px] md:h-[158px] md:w-[314px] md:pb-[22px]"
             />
           </div>
-          <div className="2xs:h-[590px] mx-4 mt-[22px] flex h-[300px] items-center gap-[24px] rounded-[12px] border border-white md:h-[468px] md:w-[350px]">
-            <div className="py-auto 2xs:pt-[33px] 2xs:my-[181px] 2xs:h-[224px] mx-auto h-auto max-w-[316px] md:mx-[18px] md:my-[98px] md:pt-0">
-              <h1 className="2xs:w-[316px] 2xs:text-2xl text-[20px] font-bold md:max-w-[314px] md:text-[32px] lg:text-[52px]">
+          <div className="2xs:h-[590px] mx-4 mt-[22px] flex h-[300px] items-center gap-[24px] rounded-[12px] border border-white md:h-[468px] md:w-[350px] lg:w-[827px]">
+            <div className="py-auto 2xs:pt-[33px] 2xs:my-[181px] 2xs:h-[224px] mx-auto h-auto max-w-[316px] border md:mx-[18px] md:my-[98px] md:pt-0 lg:mx-[67px]">
+              <h1 className="2xs:mb-0 2xs:w-[316px] 2xs:text-2xl mb-[56px] text-[20px] font-bold md:max-w-[314px] md:text-[32px] lg:text-[52px]">
                 Future-Ready Utility Token
               </h1>
-              <p className="xs:w-[367px] 2xs:mt-6 2xs:text-[16px] font-normal md:h-[168px] md:w-[314px]">
+              <p className="xs:w-[367px] 2xs:mt-6 2xs:text-[16px] lg:w-a border font-normal md:h-[168px] md:w-[314px] lg:w-[827px] lg:text-2xl">
                 Our Pyramid AI network connects users and systems worldwide. It
                 Zentrix gives users access to advanced AI tools, smart trading
                 options, and decentralized features. It’s designed for the
