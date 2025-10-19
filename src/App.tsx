@@ -3,6 +3,7 @@ import HowItWork from './pages/pageA/sections/hiw';
 import Technology from './pages/pageA/sections/technology';
 import BhdTechnology from './pages/pageA/sections/behindTeachonlgy';
 import Services from './pages/pageA/sections/services';
+import Question from './pages/pageA/sections/question';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Technology />
       <BhdTechnology />
       <Services />
+      <Question />
     </div>
   );
 }
