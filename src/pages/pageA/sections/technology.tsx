@@ -4,11 +4,11 @@ import VDO7 from '/animation7.mp4';
 
 function technology() {
   return (
-    <section className="font-md font-md mx-auto  w-full max-w-[1920px] pt-[80px] text-white">
+    <section className="font-md font-md mx-auto w-full max-w-[1920px] pt-[80px] text-white">
       <div className="flex w-full max-w-[1920px] flex-col items-center-safe justify-center gap-[25px] xl:flex-row">
         {/* 2xl:min-h-screen */}
         {/* left side */}
-        <div className="max-w-[828px] justify-center lg:gap-[25px]">
+        <div className="max-w-[1112px] justify-center lg:ml-[120px] lg:gap-[25px]">
           <div className="md-w-[720px]">
             <h1 className="mx-auto max-w-[1112px] text-center text-[32px] font-[700] text-white sm:text-[52px] md:text-[62px] lg:text-center lg:text-[52px]">
               How Zentrix Pyramid AI Works
@@ -41,19 +41,19 @@ function technology() {
         </div>
         {/* Right side */}
         <div className="flex justify-center">
-          <img
+          {/* <img
             src={Img7}
             alt="Pyramid image"
-            className="2xs:h-[349px] 2xs:w-[398px] mb-[32px] px-4 md:h-[635px] md:w-[720px] lg:h-[699px] lg:w-[827px] 2xl:h-full 2xl:w-full"
-          />
-          {/* <video
+            className="2xs:h-[349px] 2xs:w-[398px] mb-[32px] px-4 lg:w-auto lg:h-auto max-w-[827px] max-h-[699px]"
+          /> */}
+          <video
             src={VDO7}
             autoPlay
             loop
             muted
             playsInline
-            className="md:w- mx-auto h-[306px] w-[260px] md:w-[445px] md:pt-[32px] lg:h-[852px] lg:w-[688px]"
-          ></video> */}
+            className="2xs:h-[349px] 2xs:w-[398px] mb-[32px] max-h-[699px] max-w-[827px] px-4 lg:h-auto lg:w-auto"
+          ></video>
         </div>
       </div>
     </section>

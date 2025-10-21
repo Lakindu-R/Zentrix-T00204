@@ -49,7 +49,7 @@ function hero() {
             loop
             muted
             playsInline
-            className="md:w- mx-auto h-[306px] w-[260px] md:w-[445px] md:pt-[32px] lg:h-[852px] lg:w-[688px]"
+            className=" mx-auto h-[306px] w-[260px] md:w-[445px] md:h-[503px] md:pt-[32px] lg:h-[852px] lg:w-[688px]"
           ></video>
         </div>
       </div>

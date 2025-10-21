@@ -1,26 +1,29 @@
 import Img3 from '/3.webp';
 import Img4 from '/4.webp';
 import Img5 from '/5.webp';
+import vdo5 from '/animation5.mp4';
+import vdo4 from '/animation4.mp4';
+import vdo3 from '/animation3.mp4';
 
 type Card = {
-  img: string;
+  video: string;
   title: string;
   text: string;
 };
 
 const cards: Card[] = [
   {
-    img: Img3,
+    video: vdo3,
     title: '1. AI Trading Engine',
     text: 'Our AI system studies live market data and helps users make better trading choices with accurate predictions and quick results.',
   },
   {
-    img: Img4,
+    video: vdo4,
     title: '2. Secure Staking System',
     text: 'Stake Zentrix tokens easily and earn rewards. Pyramid AI keeps every transaction safe and transparent for all users.',
   },
   {
-    img: Img5,
+    video: vdo5,
     title: '3. Decentralized Data Network',
     text: 'Zentrix connects people through a smart and secure data system that protects privacy while allowing smooth global communication',
   },
@@ -44,9 +47,12 @@ function Services() {
               key={index}
               className="flex max-w-[544px] flex-col items-center rounded-2xl border border-white bg-black p-4 text-center text-white shadow-md"
             >
-              <img
-                src={card.img}
-                alt={card.title}
+              <video
+                src={card.video}
+                autoPlay
+                loop
+                muted
+                playsInline
                 className="lg:max-w-[512px]"
               />
               <h1 className="mt-4 mb-6 text-2xl font-bold">{card.title}</h1>
@@ -63,7 +69,14 @@ function Services() {
                 key={index}
                 className="flex max-w-[400px] min-w-[400px] flex-col items-center rounded-2xl border border-white bg-black p-4 text-center text-white shadow-md"
               >
-                <img src={card.img} alt={card.title} className="w-full" />
+                <video
+                  src={card.video}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full"
+                />
                 <h1 className="mt-4 mb-6 text-2xl font-bold">{card.title}</h1>
                 <p className="text-base font-normal">{card.text}</p>
               </div>
@@ -78,7 +91,14 @@ function Services() {
               key={index}
               className="flex w-full flex-col items-center rounded-2xl border border-white bg-black p-4 text-center text-white shadow-md"
             >
-              <img src={card.img} alt={card.title} className="" />
+              <video
+                src={card.video}
+                autoPlay
+                loop
+                muted
+                playsInline
+                className=""
+              />
               <h1 className="mt-4 mb-6 text-lg font-bold xl:text-[32px]">
                 {card.title}
               </h1>
