@@ -4,6 +4,7 @@ import Technology from './pages/pageA/sections/technology';
 import BhdTechnology from './pages/pageA/sections/behindTeachonlgy';
 import Services from './pages/pageA/sections/services';
 import Question from './pages/pageA/sections/question';
+import Footer from './components/footer/footer'
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <BhdTechnology />
       <Services />
       <Question />
+      <Footer/>
+
     </div>
   );
 }
