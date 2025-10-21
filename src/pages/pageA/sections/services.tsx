@@ -32,7 +32,7 @@ const cards: Card[] = [
 function Services() {
   return (
     <section className="text-white">
-      <div className="mx-[120px] items-center justify-center text-center">
+      <div className="mx-3 items-center justify-center text-center lg:mx-[120px]">
         <h1 className="text-[32px]">Our Smart Services</h1>
         <p className="mt-6 text-[20px]">
           Zentrix brings powerful AI and blockchain features together to make
@@ -40,12 +40,12 @@ function Services() {
         </p>
       </div>
       <div className="font-md mx-auto max-w-[1920px] p-4 text-white">
-        {/* Mobile: Vertical stack */}
+        {/* Mobile */}
         <div className="flex flex-col items-center justify-center gap-6 md:hidden">
           {cards.map((card, index) => (
             <div
               key={index}
-              className="flex max-w-[544px] flex-col items-center rounded-2xl border border-white bg-black p-4 text-center text-white shadow-md"
+              className="group relative flex max-w-[544px] flex-col items-center rounded-2xl border-2 border-white/50 bg-black/30 p-4 text-center text-white shadow-md backdrop-blur-sm transition-all duration-300 hover:border-white/70 hover:shadow-lg hover:shadow-white/20"
             >
               <video
                 src={card.video}
@@ -61,13 +61,13 @@ function Services() {
           ))}
         </div>
 
-        {/* Tablet (768px-1024px): Horizontal scroll */}
+        {/* Horizontal scroll */}
         <div className="hidden overflow-x-auto md:block lg:hidden">
           <div className="flex gap-6 pb-4">
             {cards.map((card, index) => (
               <div
                 key={index}
-                className="flex max-w-[400px] min-w-[400px] flex-col items-center rounded-2xl border border-white bg-black p-4 text-center text-white shadow-md"
+                className="group relative flex max-w-[400px] min-w-[400px] flex-col items-center rounded-2xl border-2 border-white/50 bg-black/30 p-4 text-center text-white shadow-md backdrop-blur-sm transition-all duration-300 hover:border-white/70 hover:shadow-lg hover:shadow-white/20"
               >
                 <video
                   src={card.video}
@@ -84,12 +84,12 @@ function Services() {
           </div>
         </div>
 
-        {/* Desktop (1024px+): Horizontal centered row */}
+        {/* Desktop*/}
         <div className="hidden items-center justify-center gap-6 px-5 lg:mt-[38px] lg:flex xl:px-[100px]">
           {cards.map((card, index) => (
             <div
               key={index}
-              className="flex w-full flex-col items-center rounded-2xl border border-white bg-black p-4 text-center text-white shadow-md"
+              className="group relative flex w-full flex-col items-center rounded-2xl border-2 border-white/50 bg-black/50 p-4 text-center text-white shadow-lg backdrop-blur-lg transition-all duration-900 hover:border-white/70 hover:shadow-xl hover:shadow-[#03cdc9]"
             >
               <video
                 src={card.video}

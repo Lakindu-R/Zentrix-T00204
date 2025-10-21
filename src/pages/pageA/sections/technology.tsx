@@ -52,7 +52,7 @@ function technology() {
             loop
             muted
             playsInline
-            className="2xs:h-[349px] 2xs:w-[398px] mb-[32px] max-h-[699px] max-w-[827px] px-4 lg:h-auto lg:w-auto"
+            className="2xs:h-[349px] 2xs:w-[398px] mb-[32px]  px-4 lg:h-auto lg:w-auto"
           ></video>
         </div>
       </div>
