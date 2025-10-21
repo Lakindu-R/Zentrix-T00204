@@ -36,11 +36,11 @@ function Question() {
   };
   return (
     <section className="font-md mx-auto max-w-[1450px] px-4 py-8">
-      <div className="mt-[52px] mb-[86px] text-center text-white">
-        <h1 className="mb-[29px] text-3xl font-bold md:text-[52px]">
+      <div className="mt-[52px] mb-[30px] md:mb-[86px] text-center text-white">
+        <h1 className="mb-[29px] text-[32px] font-bold md:text-[52px]">
           Frequently Asked Questions
         </h1>
-        <p className="text-lg font-normal md:text-2xl">
+        <p className=" font-normal md:text-2xl">
           Find quick answers about Zentrix and how Pyramid AI powers our
           ecosystem.
         </p>
@@ -54,7 +54,7 @@ function Question() {
               className="w-full text-left lg:cursor-default"
             >
               <div className="m-4 mb-3 flex items-center justify-between">
-                <h2 className="pr-4 text-xl font-bold text-black md:text-2xl">
+                <h2 className="pr-4 text-2xl font-bold text-black md:text-2xl">
                   {question.title}
                 </h2>
                 {/* Chevron icon - only visible below 1024px */}
@@ -75,7 +75,7 @@ function Question() {
               } `}
             >
               <div className="max-w-[1450px] rounded-b-xl border border-white bg-black px-5 py-4">
-                <p className="m-0 text-sm leading-relaxed font-normal text-white md:text-base">
+                <p className="m-0 text-base leading-relaxed font-normal text-white md:text-base">
                   {question.text}
                 </p>
               </div>
