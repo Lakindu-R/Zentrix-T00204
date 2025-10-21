@@ -29,7 +29,7 @@ const cards: Card[] = [
 function Services() {
   return (
     <section className="text-white">
-      <div className="text-center">
+      <div className="mx-[120px] items-center justify-center text-center">
         <h1 className="text-[32px]">Our Smart Services</h1>
         <p className="mt-6 text-[20px]">
           Zentrix brings powerful AI and blockchain features together to make
@@ -72,15 +72,17 @@ function Services() {
         </div>
 
         {/* Desktop (1024px+): Horizontal centered row */}
-        <div className="hidden items-center justify-center  gap-6 lg:flex lg:mt-[38px]">
+        <div className="hidden items-center justify-center gap-6 px-5 lg:mt-[38px] lg:flex xl:px-[100px]">
           {cards.map((card, index) => (
             <div
               key={index}
-              className="lg:w-[544px] p-4 flex flex-col items-center rounded-2xl border border-white bg-black  text-center text-white shadow-md"
+              className="flex w-full flex-col items-center rounded-2xl border border-white bg-black p-4 text-center text-white shadow-md"
             >
               <img src={card.img} alt={card.title} className="" />
-              <h1 className="mt-4 mb-6 text-[32px] font-bold">{card.title}</h1>
-              <p className="text-base lg:text-2xl font-normal">{card.text}</p>
+              <h1 className="mt-4 mb-6 text-lg font-bold xl:text-[32px]">
+                {card.title}
+              </h1>
+              <p className="text-base font-normal xl:text-2xl">{card.text}</p>
             </div>
           ))}
         </div>
