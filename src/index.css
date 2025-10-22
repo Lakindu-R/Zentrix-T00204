@@ -7,8 +7,10 @@
 .font-md {
   font-family: 'DM Sans', sans-serif;
 }
- 
-body{
+html {
+  scroll-behavior: smooth;
+}
+body {
   background-color: black;
 }
 @theme inline {

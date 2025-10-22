@@ -5,7 +5,7 @@ import vdo from '/animate.mp4';
 
 function hero() {
   return (
-    <section className="font-md mx-auto w-full pt-[80px] text-white">
+    <section className="max-h-[852px] max-w-[1920px] font-md mx-auto w-full pt-[42px] text-white">
       <div style={{ width: '100%', height: '800px', position: 'absolute' }}>
         {/* <Galaxy
           mouseRepulsion={true}

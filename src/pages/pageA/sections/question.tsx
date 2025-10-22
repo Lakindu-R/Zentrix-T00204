@@ -35,12 +35,12 @@ function Question() {
     setOpenIndex(openIndex === index ? null : index);
   };
   return (
-    <section className="font-md mx-auto max-w-[1450px] px-4 py-8">
-      <div className="mt-[52px] mb-[30px] md:mb-[86px] text-center text-white">
+    <section id="faq" className="font-md mx-auto max-w-[1450px] px-4 py-8">
+      <div className="mt-[52px] mb-[30px] text-center text-white md:mb-[86px]">
         <h1 className="mb-[29px] text-[32px] font-bold md:text-[52px]">
           Frequently Asked Questions
         </h1>
-        <p className=" font-normal md:text-2xl">
+        <p className="font-normal md:text-2xl">
           Find quick answers about Zentrix and how Pyramid AI powers our
           ecosystem.
         </p>

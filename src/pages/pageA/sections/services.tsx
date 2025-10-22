@@ -31,7 +31,7 @@ const cards: Card[] = [
 
 function Services() {
   return (
-    <section className="text-white">
+    <section id='services' className="text-white">
       <div className="mx-3 items-center justify-center text-center lg:mx-[120px]">
         <h1 className="text-[32px]">Our Smart Services</h1>
         <p className="mt-6 text-[20px]">

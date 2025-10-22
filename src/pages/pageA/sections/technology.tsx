@@ -4,56 +4,51 @@ import VDO7 from '/animation7.mp4';
 
 function technology() {
   return (
-    <section className="font-md font-md mx-auto w-full max-w-[1920px] pt-[80px] text-white">
-      <div className="flex w-full max-w-[1920px] flex-col items-center-safe justify-center gap-[25px] xl:flex-row">
-        {/* 2xl:min-h-screen */}
-        {/* left side */}
-        <div className="max-w-[1112px] justify-center lg:ml-[120px] lg:gap-[25px]">
-          <div className="md-w-[720px]">
-            <h1 className="mx-auto max-w-[1112px] text-center text-[32px] font-[700] text-white sm:text-[52px] md:text-[62px] lg:text-center lg:text-[52px]">
+    <section className="mx-auto w-full max-w-[1920px] pt-[80px] text-white">
+      <div className="mx-auto flex w-full max-w-[1400px] flex-col items-center justify-center gap-[40px] px-4 lg:flex-row lg:gap-[60px] lg:px-[60px] xl:gap-[80px]">
+        {/* Left side - Content */}
+        <div className="flex max-w-[650px] flex-col lg:flex-1">
+          <div>
+            <h1 className="text-center text-[32px] font-[700] leading-tight text-white sm:text-[42px] md:text-[48px] lg:text-left lg:text-[52px]">
               How Zentrix Pyramid AI Works
             </h1>
-            <p className="mx-auto mt-[24px] text-center text-xl font-normal text-white">
+            <p className="mt-[16px] text-center text-[16px] font-normal leading-relaxed text-white sm:text-[18px] lg:text-left">
               Layered intelligence powering a smart and secure decentralized
               system.
             </p>
           </div>
-          <p className="mx-auto mt-[24px] px-3 text-center text-base font-[400] sm:w-auto sm:text-2xl lg:mx-0 lg:px-0 lg:text-center">
+          
+          <p className="mt-[24px] text-center text-[14px] font-[400] leading-relaxed text-white sm:text-[16px] lg:text-left">
             Zentrix works through a powerful pyramid-based AI structure. At the
             base, decentralized nodes process and protect data. The middle
             layers connect AI models and smart contracts to manage secure
-            operations. At the top, advanced intelligence analyzes
-            <br className="hidden md:block lg:hidden" /> and improves the system
-            continuously. <br className="hidden md:block lg:hidden" /> Each
-            layer supports the other — creating balance, speed, and smart
-            performance across the entire Zentrix ecosystem. This structure
-            allows users to stake, trade, and grow while enjoying transparency
-            and AI-powered efficiency.
+            operations. At the top, advanced intelligence analyzes and improves 
+            the system continuously. Each layer supports the other — creating 
+            balance, speed, and smart performance across the entire Zentrix 
+            ecosystem. This structure allows users to stake, trade, and grow 
+            while enjoying transparency and AI-powered efficiency.
           </p>
-          <div className="xs:px-0 2xs:text-[15px] mx-auto mt-[32px] mb-[40px] flex justify-center gap-[24px] px-1 text-[10px] font-[400] sm:items-start md:text-[20px] lg:mt-[42px] lg:justify-center lg:gap-[35px]">
-            <button className="2xs:h-[56px] 2xs:w-[187px] h-[36px] w-[100px] rounded-[12px] bg-white text-black md:h-[56px] md:w-[184px] lg:h-[56px] lg:w-[184px]">
+          
+          <div className="mt-[32px] flex justify-center gap-[16px] lg:justify-start lg:gap-[24px]">
+            <button className="h-[48px] w-[160px] rounded-[12px] bg-white text-[16px] font-[500] text-black transition-all hover:bg-gray-100 sm:h-[56px] sm:w-[180px]">
               Get Token
             </button>
-            <button className="2xs:h-[56px] 2xs:w-[187px] h-[36px] w-[100px] rounded-[12px] bg-[#575757] text-white md:h-[56px] md:w-[184px] lg:h-[56px] lg:w-[184px]">
+            <button className="h-[48px] w-[160px] rounded-[12px] bg-[#575757] text-[16px] font-[500] text-white transition-all hover:bg-[#676767] sm:h-[56px] sm:w-[180px]">
               Join Community
             </button>
           </div>
         </div>
-        {/* Right side */}
-        <div className="flex justify-center">
-          {/* <img
-            src={Img7}
-            alt="Pyramid image"
-            className="2xs:h-[349px] 2xs:w-[398px] mb-[32px] px-4 lg:w-auto lg:h-auto max-w-[827px] max-h-[699px]"
-          /> */}
+
+        {/* Right side - Pyramid Visual */}
+        <div className="flex w-full max-w-[500px] justify-center lg:flex-1 lg:max-w-[600px]">
           <video
             src={VDO7}
             autoPlay
             loop
             muted
             playsInline
-            className="2xs:h-[349px] 2xs:w-[398px] mb-[32px]  px-4 lg:h-auto lg:w-auto"
-          ></video>
+            className="h-auto w-full max-w-[400px] lg:max-w-full"
+          />
         </div>
       </div>
     </section>

@@ -1,7 +1,10 @@
 import Img6 from '/6.webp';
 function behindTeachonlgy() {
   return (
-    <section className="font-md font-md mx-auto my-[52px]  w-full max-w-[1920px] lg:pt-[80px] text-white px-6">
+    <section
+      id="tech"
+      className="font-md font-md mx-auto my-[52px] w-full max-w-[1920px] px-6 text-white lg:pt-[80px]"
+    >
       <div className="mx-auto flex w-full max-w-[1920px] flex-col-reverse items-center-safe justify-center gap-[62px] xl:flex-row">
         {/* Right side */}
         <div className="flex justify-center">
