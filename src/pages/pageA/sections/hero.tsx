@@ -5,29 +5,29 @@ import vdo from '/animate.mp4';
 
 function hero() {
   return (
-    <section className="max-h-[852px] max-w-[1920px] font-md mx-auto w-full pt-[42px] text-white">
-      <div style={{ width: '100%', height: '800px', position: 'absolute' }}>
-        {/* <Galaxy
+    <section className="relative font-md mx-auto max-h-[852px] w-full max-w-[1920px] text-white">
+      {/*       */}
+      {/* <div style={{ width: '100%', height: '800px', position: 'absolute' }}>
+        <Galaxy
           mouseRepulsion={true}
           mouseInteraction={true}
-          density={0.3}
+          density={0.5}
           glowIntensity={0.1}
           saturation={0}
           hueShift={110}
-        /> */}
-      </div>
-      <div className="mx-auto flex w-full max-w-[1920px] flex-col justify-center lg:flex-row">
-        
+        />
+      </div> */}
+      <div className="h-screen mx-auto flex w-full flex-col justify-center lg:flex-row xl:pl-[30px] ">
         {/* left side */}
-        <div className="max-w-[1112px] justify-center lg:ml-[120px] lg:pt-[188px]">
-          <h1 className="2xs:text-[52px] mx-auto max-w-[1112px] text-center font-[700] text-white lg:text-start xl:text-[128px]">
+        <div className="xl:pt-[140px] 2xl:pt-[100px] h-[476px] max-w-[1112px] justify-center pt-[188px] lg:pt-[18px]">
+          <h1 className="2xs:text-[52px] mx-auto text-center leading-[125px] font-[700] text-white lg:text-start xl:text-[128px]">
             Power the Future with Zentrix
           </h1>
-          <p className="2xs:text-[24px] mx-auto mt-[24px] max-w-[970px] px-3 text-center font-[400] lg:mx-0 lg:px-0 lg:text-start">
+          <p className="2xs:text-[24px] mx-auto mt-[24px] max-w-[970px]  px-3 text-center leading-[32px] font-[400] lg:mx-0 lg:px-0 lg:text-start">
             A Pyramid AI utility token powering intelligent systems,
             decentralized access, and growth through layered innovation.
           </p>
-          <div className="xs:px-0 2xs:text-[15px] mx-auto mt-[32px] flex justify-center gap-[24px] px-1 text-[10px] font-[400] sm:items-start md:text-[20px] lg:mt-[42px] lg:justify-start lg:gap-[35px]">
+          <div className="xs:px-0 2xs:text-[15px] mx-auto mt-[32px] flex justify-center gap-[24px]  px-1 text-[10px] font-[400] sm:items-start md:text-[20px] lg:mt-[42px] lg:justify-start lg:gap-[35px]">
             <button className="2xs:h-[56px] 2xs:w-[187px] h-[36px] w-[100px] rounded-[12px] bg-white text-black md:h-[56px] md:w-[342px] lg:h-[56px] lg:w-[184px]">
               Get Token
             </button>
@@ -41,7 +41,7 @@ function hero() {
           {/* <img
             src={Img1}
             alt="Pyramid image"
-            className="mx-auto h-[306px] w-[260px] lg:h-[852px] lg:w-[688px]"
+            className="mx-auto h-[306px] w-[260px] md:h-[503px] md:w-[445px] lg:h-auto lg:w-full"
           /> */}
           <video
             src={vdo}
@@ -49,7 +49,7 @@ function hero() {
             loop
             muted
             playsInline
-            className=" mx-auto h-[306px] w-[260px] md:w-[445px] md:h-[503px] md:pt-[32px] lg:h-[852px] lg:w-[688px]"
+            className=" mx-auto h-[306px] w-[260px] md:h-[503px] md:w-[445px] lg:h-auto lg:w-full "
           ></video>
         </div>
       </div>

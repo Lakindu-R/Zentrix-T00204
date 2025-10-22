@@ -7,19 +7,19 @@ function hiw() {
     <section id="how" className="py-12 md:py-16 lg:py-20 xl:pt-36">
       <div className="font-md text-white">
         {/* Upper Row - Intelligent Growth System */}
-        <div className="mx-auto px-4 md:px-6 lg:px-8 max-w-[1680px] ">
+        <div className="mx-auto max-w-[1680px] px-4 md:px-6 lg:px-8">
           <div className="relative mx-auto flex max-w-[398px] flex-col overflow-visible rounded-xl border border-white md:max-w-[720px] md:flex-row md:items-center lg:max-w-[1680px]">
             {/* Image - Mobile: Below, Desktop: Left */}
-            <div className="order-2 flex justify-center px-4 pt-8 pb-6 md:order-1 md:px-0 md:py-2 lg:px-12 lg:py-16">
+            <div className="order-2 flex justify-center px-4 pt-8 pb-6 md:order-1 md:px-0 md:py-2 lg:px-12 lg:py-16 xl:py-0 xl:pb-0">
               <img
                 src={Img22}
                 alt="AI Pyramid"
-                className="h-auto w-full max-w-[767px] xl:w-[767px]  translate-y-11 md:w-[340px] md:-translate-y-[30px] xl:-translate-y-[100px] lg:max-w-[500px] xl:max-w-[600px]"
+                className="h-auto w-full max-w-[767px] translate-y-11 md:w-[340px] md:-translate-y-[30px] lg:max-w-[500px] xl:w-[767px] xl:max-w-[600px] xl:-translate-y-[50px]"
               />
             </div>
 
             {/* Text Content - Mobile: Top, Desktop: Right */}
-            <div className="order-1 pt-2 md:order-2 lg:px-12 lg:py-16">
+            <div className="order-1 pt-2 md:order-2 lg:px-12 lg:py-16 xl:w-[740px]">
               <h1 className="text-2xl leading-tight font-bold md:mb-3 md:text-3xl lg:text-4xl xl:text-5xl">
                 Intelligent Growth System
               </h1>
