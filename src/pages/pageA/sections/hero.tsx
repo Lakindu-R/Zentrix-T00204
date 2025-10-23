@@ -20,7 +20,7 @@ function hero() {
       <div className="mx-auto flex w-full flex-col justify-center lg:flex-row lg:pl-[128px]">
         {/* left side */}
         <div className="h-auto max-w-[1112px] justify-center md:mb-[32px] lg:pt-[18px] lg:pt-[140px] xl:h-[476px] 2xl:pt-[100px]">
-          <h1 className="2xs:text-[52px] mx-auto text-center font-[700] text-white md:text-[64px] lg:text-start xl:text-[128px] xl:leading-[125px]">
+          <h1 className="2xs:text-[52px] mx-auto text-center font-[700] text-white md:text-[64px] lg:text-start 2xl:text-[100px] xl:leading-[125px]">
             Power the Future with Zentrix
           </h1>
           <p className="2xs:text-[24px] mx-auto mt-[24px] max-w-[970px] px-3 text-center font-[400] lg:mx-0 lg:px-0 lg:text-start xl:leading-[32px]">

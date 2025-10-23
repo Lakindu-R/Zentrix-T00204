@@ -6,6 +6,7 @@ import BhdTechnology from './pages/pageA/sections/behindTeachonlgy';
 import Services from './pages/pageA/sections/services';
 import Question from './pages/pageA/sections/question';
 import Footer from './components/footer/footer';
+import ScreenSize from "./components/screenSize"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Services />
       <Question />
       <Footer />
+      <ScreenSize/>
     </div>
   );
 }
