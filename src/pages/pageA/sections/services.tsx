@@ -31,7 +31,7 @@ const cards: Card[] = [
 
 function Services() {
   return (
-    <section id='services' className="text-white">
+    <section id="services" className="text-white">
       <div className="mx-3 items-center justify-center text-center lg:mx-[120px]">
         <h1 className="text-[32px]">Our Smart Services</h1>
         <p className="mt-6 text-[20px]">
@@ -99,10 +99,12 @@ function Services() {
                 playsInline
                 className=""
               />
-              <h1 className="mt-4 mb-6 text-lg font-bold xl:text-[32px]">
+              <h1 className="mt-4 mb-6 text-lg font-bold xl:text-[25px]">
                 {card.title}
               </h1>
-              <p className="text-base font-normal xl:text-2xl">{card.text}</p>
+              <p className="text-base font-normal xl:text-[20px]">
+                {card.text}
+              </p>
             </div>
           ))}
         </div>

@@ -105,15 +105,21 @@ export default function Navbar() {
         />
       )}
 
-      <header className="sticky max-w-[1680px] top-0 z-50 my-[32px] mx-auto">
-        <nav className="mx-auto  px-4 sm:px-6 lg:px-8">
+      <header className="sticky top-0 z-50 mx-auto my-[32px] max-w-[1680px]">
+        <nav className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative flex items-center justify-between rounded-full border border-white bg-black px-6 py-3">
             {/* Left: Logo */}
             <div className="flex items-center">
               <div className="flex items-center gap-3">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full">
-                  <a href="">
-                    <img src={Logo} alt="" className=''/>
+                <div className="perspective-1000 flex h-10 w-10 items-center justify-center rounded-full">
+                  <a href="" className="group relative block">
+                    <img
+                      src={Logo}
+                      alt=""
+                      id="about"
+                      className="h-full w-full transition-all duration-700 ease-in-out group-hover:scale-150 group-hover:[transform:rotateY(360deg)]"
+                      style={{ transformStyle: 'preserve-3d' }}
+                    />
                   </a>
                 </div>
               </div>

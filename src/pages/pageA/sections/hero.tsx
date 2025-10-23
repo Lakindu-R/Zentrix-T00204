@@ -1,4 +1,5 @@
 import Img1 from '/1.webp';
+import BgVideo from '../../../../public/hero bg animation.mp4'
 import Galaxy from '../../../../src/components/customUi/galaxy';
 
 import vdo from '/animate.mp4';
@@ -6,18 +7,20 @@ import vdo from '/animate.mp4';
 function hero() {
   return (
     <section className="font-md relative mx-auto max-h-[852px] w-full max-w-[1920px] text-white">
-      {/*       */}
-      {/* <div style={{ width: '100%', height: '800px', position: 'absolute' }}>
-        <Galaxy
-          mouseRepulsion={true}
-          mouseInteraction={true}
-          density={0.5}
-          glowIntensity={0.1}
-          saturation={0}
-          hueShift={110}
-        />
-      </div> */}
-      <div className="mx-auto flex w-full flex-col justify-center lg:flex-row lg:pl-[128px]">
+      {/* Background video */}
+      <video
+        src={BgVideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute left-0 top-0 h-full w-full object-cover opacity-15"
+      ></video>
+
+      {/* Optional dark overlay for readability */}
+      <div className="absolute inset-0 bg-black/10 z-[-1]"></div>
+      
+      <div id='about' className="mx-auto flex w-full flex-col justify-center lg:flex-row lg:pl-[128px]">
         {/* left side */}
         <div className="h-auto max-w-[1112px] justify-center md:mb-[32px] lg:pt-[18px] lg:pt-[140px] xl:h-[476px] 2xl:pt-[100px]">
           <h1 className="2xs:text-[52px] mx-auto text-center font-[700] text-white md:text-[64px] lg:text-start 2xl:text-[100px] xl:leading-[125px]">

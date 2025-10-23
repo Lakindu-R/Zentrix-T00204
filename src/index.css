@@ -13,6 +13,67 @@ html {
 body {
   background-color: black;
 }
+/* HIW pyrymid rotation */
+@keyframes rotateY {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.animate-rotateY {
+  animation: rotateY 3s linear infinite;
+  transform-style: preserve-3d;
+}
+/* BHD Technology animation colors */
+.image-glow-wrapper {
+  position: relative;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+@media (min-width: 1024px) {
+  .image-glow-wrapper::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    border-radius: 60%;
+    background: conic-gradient(
+      #7b076b,
+      #173865,
+      #3021c5,
+      #18a5ed,
+      #0384b6,
+      #7b076b
+    );
+    filter: blur(190px);
+    opacity: 0.9;
+    z-index: 0;
+    animation: rotateGlow 8s linear infinite;
+  }
+}
+
+.image-glow-wrapper img {
+  position: relative;
+  display: block;
+  z-index: 1;
+  border-radius: 12px;
+}
+
+@keyframes rotateGlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @theme inline {
   /* Existing radius variables */
   --radius-sm: calc(var(--radius) - 4px);

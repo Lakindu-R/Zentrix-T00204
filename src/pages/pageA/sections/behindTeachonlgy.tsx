@@ -7,13 +7,14 @@ function behindTeachonlgy() {
     >
       <div className="mx-auto flex w-full max-w-[1920px] flex-col-reverse items-center-safe justify-center gap-[62px] xl:flex-row">
         {/* Right side */}
-        <div className="flex justify-center">
+        <div className="image-glow-wrapper flex justify-center">
           <img
             src={Img6}
             alt="Pyramid image"
             className="2xs:h-[349px] 2xs:w-[398px] mb-[32px] px-4 md:h-[635px] md:w-[720px] lg:h-[699px] lg:w-[827px] 2xl:h-full 2xl:w-full"
           />
-          {/* <video
+        </div>
+        {/* <video
             src={VDO7}
             autoPlay
             loop
@@ -21,7 +22,6 @@ function behindTeachonlgy() {
             playsInline
             className="md:w- mx-auto h-[306px] w-[260px] md:w-[445px] md:pt-[32px] lg:h-[852px] lg:w-[688px]"
           ></video> */}
-        </div>
 
         {/* left side */}
         <div className="max-w-[828px] justify-center lg:gap-[25px]">
